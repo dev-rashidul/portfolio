@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../../../../images/logo.png';
 
 const Header = () => {
   return (
@@ -43,9 +42,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <Link to='/'>
-              <img className="w-full lg:w-2/3" src={logo} alt="" />
-            </Link>
+            <Link className="text-2xl lg:text-3xl uppercase text-violet-700 font-semibold" to="/">Rashidul</Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="flex pt-2">
@@ -64,7 +61,9 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <Link className="text-lg text-white font-medium bg-violet-700 py-2 px-6 rounded-md" >Hire Me</Link>
+            <Link className="text-lg text-white font-medium bg-violet-700 py-2 px-6 rounded-md">
+              Hire Me
+            </Link>
           </div>
         </div>
       </div>
