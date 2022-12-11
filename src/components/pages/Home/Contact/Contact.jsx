@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id='contact'>
       <div className="container mx-auto px-5 md:px-0 mt-32">
         <div className="contact-wrapper">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
@@ -43,6 +43,7 @@ const Contact = () => {
                     type="text"
                     name="name"
                     placeholder="Your Full Name"
+                    required
                   />
                 </div>
                 <div className="form-group mb-5">
@@ -52,6 +53,7 @@ const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="Email Address"
+                    required
                   />
                 </div>
                 <div className="form-group mb-5">
@@ -61,6 +63,7 @@ const Contact = () => {
                     type="text"
                     name="subject"
                     placeholder="Subject"
+                    required
                   />
                 </div>
                 <div className="form-group mb-5">
@@ -70,6 +73,7 @@ const Contact = () => {
                     rows="3"
                     name="message"
                     placeholder="Message"
+                    required
                   ></textarea>
                 </div>
                 <div>
@@ -77,6 +81,7 @@ const Contact = () => {
                     className="text-base text-white bg-violet-700 py-3 px-6 rounded-lg w-full cursor-pointer"
                     type="submit"
                     value="Submit"
+                    required
                   />
                 </div>
               </form>

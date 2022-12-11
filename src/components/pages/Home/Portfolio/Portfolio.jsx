@@ -1,5 +1,5 @@
 import React from "react";
-import { BiLinkAlt } from "react-icons/bi";
+import { Link } from "react-router-dom";
 import coding from '../../../../images/coding-skill.png';
 import photography from '../../../../images/photography.png';
 import runigo from "../../../../images/runigo.png";
@@ -7,11 +7,11 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <section>
-      <div className="portfolio-wrapper px-5 md:px-0">
+    <section id='portfolio'>
+      <div className="portfolio-wrapper px-5 md:px-0 mt-32">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
-            Portfolio
+            Projects
           </h2>
           <div className="md:flex">
             <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0">
@@ -23,9 +23,9 @@ const Portfolio = () => {
                   Runigo
                 </h3>
                 <div className="portfolio-content">
-                  <a href="https://runigo.netlify.app">
-                    <BiLinkAlt className="text-5xl text-white"></BiLinkAlt>
-                  </a>
+                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/runigo">
+                    Project Details
+                  </Link>
                 </div>
               </div>
             </div>
@@ -38,9 +38,9 @@ const Portfolio = () => {
                   Coding Skill
                 </h3>
                 <div className="portfolio-content">
-                  <a href="https://coding-skill.web.app">
-                    <BiLinkAlt className="text-5xl text-white"></BiLinkAlt>
-                  </a>
+                  <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/coding">
+                    Project Details
+                  </Link>
                 </div>
               </div>
             </div>
@@ -53,9 +53,9 @@ const Portfolio = () => {
                   Mix Photography
                 </h3>
                 <div className="portfolio-content">
-                  <a href="https://mix-photography.web.app">
-                    <BiLinkAlt className="text-5xl text-white"></BiLinkAlt>
-                  </a>
+                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/photography">
+                    Project Details
+                  </Link>
                 </div>
               </div>
             </div>

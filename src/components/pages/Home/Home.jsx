@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Hero from "./Hero/Hero";
 import Portfolio from "./Portfolio/Portfolio";
@@ -11,6 +12,12 @@ const Home = () => {
       <Hero></Hero>
 
       {/* Hero Section JSX End */}
+
+      {/* About Section JSX Start */}
+
+      <About></About>
+
+      {/* About Section JSX End */}
 
       {/* Portfolio Section JSX Start */}
 
