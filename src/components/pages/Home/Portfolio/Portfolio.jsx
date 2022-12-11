@@ -14,7 +14,7 @@ const Portfolio = () => {
             Projects
           </h2>
           <div className="md:flex">
-            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0" data-aos="fade-up-right">
               <div className="portfolio-card relative">
                 <div className="rounded-lg">
                   <img src={runigo} alt="runigo" />
@@ -23,13 +23,13 @@ const Portfolio = () => {
                   Runigo
                 </h3>
                 <div className="portfolio-content">
-                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/runigo">
+                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md hover:bg-violet-500 duration-300" to="/runigo">
                     Project Details
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0" data-aos="fade-down-left">
               <div className="portfolio-card relative">
                 <div className="rounded-lg">
                   <img src={coding} alt="coding-skill" />
@@ -38,13 +38,13 @@ const Portfolio = () => {
                   Coding Skill
                 </h3>
                 <div className="portfolio-content">
-                  <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/coding">
+                  <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md hover:bg-violet-500 duration-300" to="/coding">
                     Project Details
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 lg:w-1/3 px-0 md:px-5 mb-10 md:mb-0" data-aos="fade-up-left">
               <div className="portfolio-card relative">
                 <div className="rounded-lg">
                   <img src={photography} alt="photography" />
@@ -53,7 +53,7 @@ const Portfolio = () => {
                   Mix Photography
                 </h3>
                 <div className="portfolio-content">
-                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md" to="/photography">
+                <Link className="text-base text-white bg-violet-700 py-3 px-5 rounded-md hover:bg-violet-500 duration-300" to="/photography">
                     Project Details
                   </Link>
                 </div>

@@ -67,7 +67,7 @@ const Runigo = () => {
           </div>
           <div className="pt-8">
             <a
-              className="text-base text-white bg-violet-700 py-3 px-6 rounded-md"
+              className="text-base text-white bg-violet-700 py-3 px-6 rounded-md hover:bg-violet-500 duration-300"
               href="https://runigo.netlify.app/"
             >
               Live Website

@@ -33,7 +33,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
             Get In Touch
           </h2>
-          <div className="md:flex justify-between items-center">
+          <div className="md:flex justify-between items-center" data-aos="fade-right">
             <div className="w-full md:w-1/2 lg:pr-24">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="form-group mb-5">
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <input
-                    className="text-base text-white bg-violet-700 py-3 px-6 rounded-lg w-full cursor-pointer"
+                    className="text-base text-white bg-violet-700 py-3 px-6 rounded-lg w-full cursor-pointer hover:bg-violet-500 duration-300"
                     type="submit"
                     value="Submit"
                     required
@@ -86,7 +86,7 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            <div className="w-full md:w-1/2 pt-16 pt-md-0">
+            <div className="w-full md:w-1/2 pt-16 pt-md-0" data-aos="fade-left">
               <div className="w-full md:w-2/3 mx-auto">
                 <img src={contact} alt="contact" />
               </div>
