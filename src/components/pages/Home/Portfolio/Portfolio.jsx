@@ -8,7 +8,7 @@ import "./Portfolio.css";
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <div className="portfolio-wrapper px-5 md:px-0 mt-32">
+      <div className="portfolio-wrapper px-5 md:px-0 mt-32 overflow-hidden">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
             Projects
