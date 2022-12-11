@@ -6,7 +6,7 @@ import './Hero.css';
 const Hero = () => {
     return (
         <section>
-            <div className="hero-wrapper pt-32 md:pt-56 pb-32 px-5 md:px-0">
+            <div className="hero-wrapper pt-32 md:pt-56 pb-32 px-5 md:px-0 overflow-hidden">
                 <div className="container mx-auto">
                     <div className="hero-contents text-center" data-aos="zoom-in">
                         <div className="hero-img">
