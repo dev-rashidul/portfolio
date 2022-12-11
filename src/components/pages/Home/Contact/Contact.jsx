@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       <div className="container mx-auto px-5 md:px-0 mt-32">
-        <div className="contact-wrapper">
+        <div className="contact-wrapper overflow-hidden">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
             Get In Touch
           </h2>
