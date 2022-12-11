@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const About = () => {
   return (
     <section id="about">
-      <div className="about-wrapper md:mt-10 px-5 md:px-0">
+      <div className="about-wrapper md:mt-10 px-5 md:px-0 overflow-hidden">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-violet-700 font-semibold pb-16">
             About Myself
