@@ -11,7 +11,7 @@ const About = () => {
           </h2>
           <div className="md:flex">
             <div className="w-full md:w-2/3 md:pr-10">
-              <div className="about-content">
+              <div className="about-content" data-aos="fade-right">
                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold pb-4 md:pb-8">
                   Hi, I am{" "}
                   <span className="text-violet-700 font-bold">
@@ -53,7 +53,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full md:w-1/3 mt-12 md:mt-0">
+            <div className="w-full md:w-1/3 mt-12 md:mt-0" data-aos="fade-left">
                 <div className="about-info">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="bg-violet-50 ring-2 ring-violet-700 rounded-lg text-center py-5">

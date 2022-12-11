@@ -8,7 +8,7 @@ const Hero = () => {
         <section>
             <div className="hero-wrapper pt-32 md:pt-56 pb-32 px-5 md:px-0">
                 <div className="container mx-auto">
-                    <div className="hero-contents text-center">
+                    <div className="hero-contents text-center" data-aos="zoom-in">
                         <div className="hero-img">
                             <img className='w-[150px] mx-auto rounded-full ring-2 ring-violet-700' src={hero} alt="" />
                         </div>
